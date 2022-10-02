@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import { Button } from 'src/components/Button';
+import { Button } from '.';
 import '@testing-library/jest-dom';
 
 describe('Button', () => {
   test('renders a Button', () => {
-    // write some test at here
+    const { getByRole } = render(<Button />);
+    expect(getByRole('button')).toBeInTheDocument();
   });
 });
