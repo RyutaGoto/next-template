@@ -6,20 +6,20 @@ Next.js の開発用テンプレート
 
 ```
 .
-├── __tests__
-│   ├── __snapshots__
+├── __tests__/
+│   ├── __snapshots__/
 │   │   └── snapshot.tsx.snap
 │   ├── index.test.tsx
 │   └── snapshot.tsx
-├── public
-├── src
+├── public/
+├── src/
 │   ├── axios.ts
-│   ├── components
-│   ├── pages
-│   ├── states
-│   │   ├── atoms
-│   │   └── selectors
-│   └── styles
+│   ├── components/
+│   ├── pages/
+│   ├── states/
+│   │   ├── atoms/
+│   │   └── selectors/
+│   └── styles/
 ├── .eslintrc.json
 ├── .gitignore
 ├── .prettierrc
